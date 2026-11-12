@@ -1,0 +1,18 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="e_left" begin="0.00" color="white" from="e_entry" to="s_exit" end="900.00" probability="0.05"/>
+    <flow id="e_right" begin="0.00" from="e_entry" to="n_exit" end="900.00" probability="0.05"/>
+    <flow id="e_straight" begin="0.00" color="red" from="e_entry" to="w_exit" end="900.00" probability="0.05"/>
+    <flow id="e_uturn" begin="0.00" color="magenta" from="e_entry" to="e_exit" end="180.00" probability="0.01"/>
+    <flow id="n_left" begin="0.00" color="white" from="n_entry" to="e_exit" end="900.00" probability="0.03"/>
+    <flow id="n_right" begin="0.00" from="n_entry" to="w_exit" end="900.00" probability="0.03"/>
+    <flow id="n_straight" begin="0.00" color="red" from="n_entry" to="s_exit" end="900.00" probability="0.03"/>
+    <flow id="n_uturn" begin="0.00" color="magenta" from="n_entry" to="n_exit" end="180.00" probability="0.01"/>
+    <flow id="s_left" begin="0.00" color="white" from="s_entry" to="w_exit" end="900.00" probability="0.03"/>
+    <flow id="s_right" begin="0.00" from="s_entry" to="e_exit" end="900.00" probability="0.03"/>
+    <flow id="s_straight" begin="0.00" color="red" from="s_entry" to="n_exit" end="900.00" probability="0.03"/>
+    <flow id="s_uturn" begin="0.00" color="magenta" from="s_entry" to="s_exit" end="180.00" probability="0.01"/>
+    <flow id="w_left" begin="0.00" color="white" from="w_entry" to="n_exit" end="900.00" probability="0.05"/>
+    <flow id="w_right" begin="0.00" from="w_entry" to="s_exit" end="900.00" probability="0.05"/>
+    <flow id="w_straight" begin="0.00" color="red" from="w_entry" to="e_exit" end="900.00" probability="0.05"/>
+    <flow id="w_uturn" begin="0.00" color="magenta" from="w_entry" to="w_exit" end="180.00" probability="0.01"/>
+</routes>
