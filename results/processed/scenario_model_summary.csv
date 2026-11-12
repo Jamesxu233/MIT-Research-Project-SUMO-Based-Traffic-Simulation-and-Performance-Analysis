@@ -1,0 +1,13 @@
+scenario,model_id,model_code,model_description,last_recorded_cumulative_vehicle_count,available_time_intervals
+heavy,Model 1,RCC,X-shaped central-cross roundabout,2064,18
+heavy,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,2064,22
+heavy,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,2064,22
+heavy,Model 4,RS,Roundabout with signalized junctions,2064,20
+heavy,Model 5,BR,Basic two-lane roundabout,2064,22
+heavy,Model 6,SI,Signalized intersection,2064,44
+low,Model 1,RCC,X-shaped central-cross roundabout,415,10
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,415,10
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,415,10
+low,Model 4,RS,Roundabout with signalized junctions,415,10
+low,Model 5,BR,Basic two-lane roundabout,415,10
+low,Model 6,SI,Signalized intersection,415,11

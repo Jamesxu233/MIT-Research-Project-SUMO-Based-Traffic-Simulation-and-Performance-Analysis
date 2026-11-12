@@ -1,0 +1,68 @@
+scenario,model_id,model_code,model_description,begin,end,id,meanTravelTime,TotalTravelTime,meanOverlapTravelTime,meanSpeed,meanHaltsPerVehicle,meanTimeLoss,vehicleSum,cum_vehicleSum,meanSpeedWithin,meanHaltsPerVehicleWithin,meanDurationWithin,vehicleSumWithin,meanIntervalSpeedWithin,meanIntervalHaltsPerVehicleWithin,meanIntervalDurationWithin,meanTimeLossWithin
+low,Model 1,RCC,X-shaped central-cross roundabout,0,100.0,e3_system,45.53,45.53,45.91,11.48,0.15,6.56,27.0,27.0,11.39,0.08,27.09,26.0,11.39,0.08,27.09,3.53
+low,Model 1,RCC,X-shaped central-cross roundabout,100,200.0,e3_system,47.36,92.89,47.74,11.62,0.17,7.07,60.0,87.0,11.64,0.0,23.48,21.0,11.64,0.0,23.48,2.83
+low,Model 1,RCC,X-shaped central-cross roundabout,200,300.0,e3_system,47.5,140.39,47.87,11.98,0.24,7.07,55.0,142.0,11.27,0.1,26.57,29.0,11.27,0.1,26.57,4.37
+low,Model 1,RCC,X-shaped central-cross roundabout,300,400.0,e3_system,50.53,190.92,50.91,11.79,0.21,7.66,48.0,190.0,11.16,0.11,24.91,19.0,11.16,0.11,24.91,3.5
+low,Model 1,RCC,X-shaped central-cross roundabout,400,500.0,e3_system,50.47,241.39,50.85,11.75,0.26,7.3,38.0,228.0,11.41,0.13,26.94,31.0,11.41,0.13,26.94,4.22
+low,Model 1,RCC,X-shaped central-cross roundabout,500,600.0,e3_system,50.53,291.92,50.92,11.56,0.25,8.01,48.0,276.0,11.47,0.05,26.05,20.0,11.47,0.05,26.05,3.1
+low,Model 1,RCC,X-shaped central-cross roundabout,600,700.0,e3_system,46.22,338.14,46.59,12.13,0.12,6.2,43.0,319.0,11.42,0.0,22.16,25.0,11.42,0.0,22.16,2.35
+low,Model 1,RCC,X-shaped central-cross roundabout,700,800.0,e3_system,48.94,387.08,49.33,11.63,0.16,6.67,38.0,357.0,11.85,0.12,28.31,17.0,11.85,0.12,28.31,4.04
+low,Model 1,RCC,X-shaped central-cross roundabout,800,900.0,e3_system,51.04,438.12,51.41,11.82,0.21,7.27,33.0,390.0,11.51,0.09,24.67,23.0,11.51,0.09,24.67,3.85
+low,Model 1,RCC,X-shaped central-cross roundabout,900,1000.0,e3_system,51.43,489.55,51.81,11.87,0.24,8.06,25.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 1,RCC,X-shaped central-cross roundabout,X交叉环岛无交通灯,,,,,,,,,,,,,,,,,,
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,0,100.0,e3_system,59.63,59.63,60.02,8.87,1.0,20.62,20.0,20.0,7.5,0.76,33.83,33.0,7.5,0.76,33.83,14.89
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,100,200.0,e3_system,66.95,126.58,67.34,8.22,1.24,27.68,51.0,71.0,7.74,0.92,41.04,37.0,7.74,0.92,41.04,17.52
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,200,300.0,e3_system,67.85,194.43,68.22,8.56,1.26,27.19,54.0,125.0,7.93,1.09,43.25,46.0,7.93,1.07,42.98,20.0
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,300,400.0,e3_system,75.57,270.0,75.95,8.11,1.63,32.67,54.0,179.0,7.89,0.97,40.75,30.0,7.88,0.97,40.44,16.97
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,400,500.0,e3_system,68.79,338.79,69.18,8.78,1.22,26.09,45.0,224.0,8.47,0.6,30.69,35.0,8.47,0.6,30.69,11.38
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,500,600.0,e3_system,67.51,406.3,67.9,8.88,1.13,25.34,47.0,271.0,7.88,0.68,34.17,25.0,7.88,0.68,34.17,13.86
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,600,700.0,e3_system,66.71,473.01,67.1,8.85,1.23,25.35,39.0,310.0,7.02,1.12,32.8,34.0,7.02,1.12,32.8,15.92
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,700,800.0,e3_system,74.32,547.33,74.71,7.98,1.53,32.54,43.0,353.0,7.99,0.76,32.97,21.0,7.99,0.76,32.97,13.07
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,800,900.0,e3_system,69.94,617.27,70.33,8.48,1.35,27.54,26.0,379.0,7.47,0.97,39.4,34.0,7.47,0.97,39.19,17.62
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,900,1000.0,e3_system,72.71,689.98,73.09,8.58,1.42,28.95,36.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 2,RCCS_46s,Central-cross roundabout with 46-second signal timing,X交叉路口环岛交通灯20s,,,,,,,,,,,,,,,,,,
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,0,100.0,e3_system,60.8,60.8,61.19,8.72,1.05,21.8,20.0,20.0,7.31,0.85,33.83,33.0,7.31,0.85,33.83,15.75
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,100,200.0,e3_system,67.24,128.04,67.62,8.15,1.29,28.06,49.0,69.0,7.53,1.08,43.93,39.0,7.53,1.05,43.56,19.66
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,200,300.0,e3_system,69.74,197.78,70.12,8.41,1.39,29.29,56.0,125.0,8.04,1.13,43.55,46.0,8.04,1.11,43.28,19.87
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,300,400.0,e3_system,76.41,274.19,76.79,8.08,1.8,33.33,55.0,180.0,7.71,1.0,41.29,29.0,7.68,1.0,40.46,17.97
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,400,500.0,e3_system,72.03,346.22,72.42,8.48,1.53,29.34,43.0,223.0,8.46,0.64,31.97,36.0,8.46,0.64,31.97,11.9
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,500,600.0,e3_system,69.03,415.25,69.42,8.68,1.18,27.21,44.0,267.0,7.65,1.1,41.4,29.0,7.65,1.1,41.4,18.22
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,600,700.0,e3_system,70.58,485.83,70.97,8.62,1.51,28.96,47.0,314.0,6.94,0.83,28.12,30.0,6.94,0.83,28.12,13.4
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,700,800.0,e3_system,74.6,560.43,74.98,7.91,1.62,32.54,39.0,353.0,8.05,0.76,33.04,21.0,8.05,0.76,33.04,13.08
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,800,900.0,e3_system,70.52,630.95,70.91,8.31,1.42,28.27,24.0,377.0,7.35,1.08,42.49,36.0,7.35,1.06,41.8,19.63
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,900,1000.0,e3_system,76.04,706.99,76.42,8.26,1.58,32.24,38.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 3,RCCS_26s,Central-cross roundabout with 26-second signal timing,X交叉路口环岛交通灯10s,,,,,,,,,,,,,,,,,,
+low,Model 4,RS,Roundabout with signalized junctions,0,100.0,e3_system,47.03,47.03,47.43,11.5,0.15,6.51,27.0,27.0,11.63,0.04,27.06,26.0,11.63,0.04,27.06,3.11
+low,Model 4,RS,Roundabout with signalized junctions,100,200.0,e3_system,49.04,96.07,49.42,11.58,0.21,7.1,53.0,80.0,11.03,0.43,32.51,28.0,11.03,0.43,32.51,7.16
+low,Model 4,RS,Roundabout with signalized junctions,200,300.0,e3_system,50.99,147.06,51.37,11.89,0.28,7.85,61.0,141.0,11.27,0.2,26.8,30.0,11.27,0.2,26.8,4.21
+low,Model 4,RS,Roundabout with signalized junctions,300,400.0,e3_system,51.77,198.83,52.15,12.08,0.19,6.43,48.0,189.0,11.38,0.05,26.58,20.0,11.38,0.05,26.58,3.3
+low,Model 4,RS,Roundabout with signalized junctions,400,500.0,e3_system,51.54,250.37,51.92,12.08,0.13,6.06,39.0,228.0,11.62,0.03,26.78,31.0,11.62,0.03,26.78,3.15
+low,Model 4,RS,Roundabout with signalized junctions,500,600.0,e3_system,51.89,302.26,52.28,11.98,0.13,6.78,47.0,275.0,11.6,0.05,27.65,21.0,11.6,0.05,27.65,3.03
+low,Model 4,RS,Roundabout with signalized junctions,600,700.0,e3_system,47.57,349.83,47.95,12.41,0.16,5.54,45.0,320.0,11.32,0.05,22.11,22.0,11.32,0.05,22.11,2.2
+low,Model 4,RS,Roundabout with signalized junctions,700,800.0,e3_system,49.77,399.6,50.17,11.96,0.11,5.28,37.0,357.0,12.35,0.0,28.36,17.0,12.35,0.0,28.36,2.44
+low,Model 4,RS,Roundabout with signalized junctions,800,900.0,e3_system,51.91,451.51,52.29,12.44,0.06,4.84,33.0,390.0,11.75,0.04,23.93,23.0,11.75,0.04,23.93,2.88
+low,Model 4,RS,Roundabout with signalized junctions,900,1000.0,e3_system,52.69,504.2,53.07,12.25,0.24,6.77,25.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 4,RS,Roundabout with signalized junctions,双车道环岛,,,,,,,,,,,,,,,,,,
+low,Model 5,BR,Basic two-lane roundabout,0,100.0,e3_system,60.25,60.25,60.63,9.08,1.11,20.64,18.0,18.0,7.71,0.8,36.01,35.0,7.71,0.8,36.01,15.15
+low,Model 5,BR,Basic two-lane roundabout,100,200.0,e3_system,69.37,129.62,69.76,8.21,1.3,28.01,50.0,68.0,7.96,1.05,42.84,40.0,7.96,1.05,42.84,17.77
+low,Model 5,BR,Basic two-lane roundabout,200,300.0,e3_system,73.94,203.56,74.32,8.21,1.49,30.89,55.0,123.0,8.21,1.0,42.99,48.0,8.21,1.0,42.99,18.86
+low,Model 5,BR,Basic two-lane roundabout,300,400.0,e3_system,75.92,279.48,76.3,8.51,1.45,30.63,56.0,179.0,7.74,0.97,40.39,30.0,7.74,0.97,40.07,16.95
+low,Model 5,BR,Basic two-lane roundabout,400,500.0,e3_system,72.02,351.5,72.4,8.93,1.24,26.24,42.0,221.0,8.46,0.74,33.46,38.0,8.46,0.74,33.46,12.98
+low,Model 5,BR,Basic two-lane roundabout,500,600.0,e3_system,71.08,422.58,71.46,8.75,1.3,26.92,50.0,271.0,8.08,0.6,34.16,25.0,8.08,0.6,34.16,12.62
+low,Model 5,BR,Basic two-lane roundabout,600,700.0,e3_system,68.0,490.58,68.39,9.08,1.19,24.64,43.0,314.0,7.68,0.79,27.95,29.0,7.68,0.79,27.95,12.27
+low,Model 5,BR,Basic two-lane roundabout,700,800.0,e3_system,72.08,562.66,72.47,8.58,1.37,27.77,38.0,352.0,8.19,0.77,34.35,22.0,8.19,0.77,34.35,13.73
+low,Model 5,BR,Basic two-lane roundabout,800,900.0,e3_system,73.37,636.03,73.77,8.56,1.46,28.11,28.0,380.0,7.76,0.88,36.91,33.0,7.76,0.88,36.91,15.19
+low,Model 5,BR,Basic two-lane roundabout,900,1000.0,e3_system,73.12,709.15,73.5,8.96,1.4,27.0,35.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 5,BR,Basic two-lane roundabout,双车道环岛交叉口交通灯,,,,,,,,,,,,,,,,,,
+low,Model 6,SI,Signalized intersection,0,100.0,e3_system,58.2,58.2,58.57,9.78,0.57,18.56,14.0,14.0,8.14,0.71,37.62,38.0,8.14,0.71,37.62,19.12
+low,Model 6,SI,Signalized intersection,100,200.0,e3_system,70.63,128.83,71.01,8.15,0.89,31.51,47.0,61.0,6.97,0.87,51.56,47.0,6.94,0.87,51.08,31.56
+low,Model 6,SI,Signalized intersection,200,300.0,e3_system,87.93,216.76,88.32,6.66,1.16,48.66,56.0,117.0,7.49,1.11,46.2,53.0,7.47,1.11,45.87,26.71
+low,Model 6,SI,Signalized intersection,300,400.0,e3_system,84.62,301.38,84.99,7.09,1.24,46.19,58.0,175.0,7.06,0.94,49.37,33.0,6.97,0.94,48.55,31.88
+low,Model 6,SI,Signalized intersection,400,500.0,e3_system,84.02,385.4,84.41,7.14,1.14,44.61,44.0,219.0,8.56,0.67,36.49,39.0,8.56,0.67,36.49,18.09
+low,Model 6,SI,Signalized intersection,500,600.0,e3_system,76.98,462.38,77.36,7.39,1.0,37.86,48.0,267.0,8.67,0.66,41.04,29.0,8.66,0.66,40.82,20.81
+low,Model 6,SI,Signalized intersection,600,700.0,e3_system,73.59,535.97,73.97,8.12,0.84,34.25,37.0,304.0,8.31,0.62,41.23,37.0,8.31,0.62,41.23,22.07
+low,Model 6,SI,Signalized intersection,700,800.0,e3_system,79.98,615.95,80.35,7.1,1.0,40.91,45.0,349.0,9.09,0.56,38.85,25.0,9.09,0.56,38.85,18.14
+low,Model 6,SI,Signalized intersection,800,900.0,e3_system,72.06,688.01,72.44,8.01,0.86,32.92,35.0,384.0,9.01,0.61,32.08,28.0,9.01,0.61,32.08,15.24
+low,Model 6,SI,Signalized intersection,900,1000.0,e3_system,68.21,756.22,68.58,8.33,0.9,29.76,30.0,414.0,5.38,1.0,98.6,1.0,5.38,1.0,98.6,49.87
+low,Model 6,SI,Signalized intersection,1000,1100.0,e3_system,98.31,854.53,98.79,5.39,1.0,50.01,1.0,415.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0,-1.0
+low,Model 6,SI,Signalized intersection,交叉路口,,,,,,,,,,,,,,,,,,
