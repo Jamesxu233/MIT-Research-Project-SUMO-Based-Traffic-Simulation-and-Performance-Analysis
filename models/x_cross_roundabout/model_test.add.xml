@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/23/20 14:41:43 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\xukeh\Desktop\Model 5\model5.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\xukeh\Desktop\Model 5\model5.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\xukeh\Desktop\Model 5\model5.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e3Detector id="e3_system" pos="0.00,50.00" freq="100.00" file="e3_system_RIT.xml">
+        <detEntry lane="w_entry_0" pos="20.00"/>
+        <detEntry lane="w_entry_1" pos="20.00"/>
+        <detEntry lane="s_entry_0" pos="20.00"/>
+        <detEntry lane="s_entry_1" pos="20.00"/>
+        <detEntry lane="e_entry_0" pos="20.00"/>
+        <detEntry lane="e_entry_1" pos="20.00"/>
+        <detEntry lane="n_entry_0" pos="20.00"/>
+        <detEntry lane="n_entry_1" pos="20.00"/>
+        <detExit lane="w_exit_0" pos="77.83"/>
+        <detExit lane="w_exit_1" pos="77.83"/>
+        <detExit lane="s_exit_0" pos="77.83"/>
+        <detExit lane="s_exit_1" pos="77.83"/>
+        <detExit lane="e_exit_0" pos="77.83"/>
+        <detExit lane="e_exit_1" pos="77.83"/>
+        <detExit lane="n_exit_0" pos="77.83"/>
+        <detExit lane="n_exit_1" pos="77.83"/>
+    </e3Detector>
+    <e3Detector id="e3_system_entry" pos="0.00,-50.00" freq="100.00" file="e3_system_entry_RIT.xml">
+        <detEntry lane="w_entry_0" pos="10.00"/>
+        <detEntry lane="w_entry_1" pos="10.00"/>
+        <detEntry lane="s_entry_0" pos="10.00"/>
+        <detEntry lane="s_entry_1" pos="10.00"/>
+        <detEntry lane="e_entry_0" pos="10.00"/>
+        <detEntry lane="e_entry_1" pos="10.00"/>
+        <detEntry lane="n_entry_0" pos="10.00"/>
+        <detEntry lane="n_entry_1" pos="10.00"/>
+        <detExit lane="w_entry_0" pos="11.00"/>
+        <detExit lane="w_entry_1" pos="11.00"/>
+        <detExit lane="s_entry_0" pos="11.00"/>
+        <detExit lane="s_entry_1" pos="11.00"/>
+        <detExit lane="e_entry_0" pos="11.00"/>
+        <detExit lane="e_entry_1" pos="11.00"/>
+        <detExit lane="n_entry_0" pos="11.00"/>
+        <detExit lane="n_entry_1" pos="11.00"/>
+    </e3Detector>
+</additional>
